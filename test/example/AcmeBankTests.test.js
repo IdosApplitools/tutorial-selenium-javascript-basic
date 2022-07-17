@@ -82,7 +82,7 @@ describe('ACME Bank', () => {
         await driver.manage().setTimeouts( { implicit: 10000 } );
 
         // If you are using Selenium 3, use the following call instead:
-        // TODO
+        // driver.manage().timeouts().implicitlyWait(10000);
         
         // Create the Applitools Eyes object connected to the ClassicRunner and set its configuration.
         eyes = new Eyes(runner);
