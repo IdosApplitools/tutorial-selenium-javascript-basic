@@ -3,7 +3,7 @@
 This is the example project for the [Selenium JavaScript tutorial](https://applitools.com/tutorials/selenium-javascript.html).
 It shows how to start automating visual tests
 with the [Applitools Eyes](https://applitools.com/platform/eyes/) classic runner
-using [Selenium WebDriver](https://www.selenium.dev/) in Java.
+using [Selenium WebDriver](https://www.selenium.dev/) in JavaScript.
 
 It uses:
 
@@ -11,19 +11,19 @@ It uses:
 * [Selenium WebDriver](https://www.selenium.dev/) for browser automation
 * [Google Chrome](https://www.google.com/chrome/downloads/) as the local browser for testing
 * [Npm](https://www.npmjs.com/) for dependency management
-* [Mocha](https://junit.org/junit5/) as the core test framework
+* [Mocha](https://mochajs.org/) as the core test framework
 * [Applitools Eyes](https://applitools.com/platform/eyes/) for visual testing
 
 To run this example project, you'll need:
 
 1. A free [Applitools account](https://auth.applitools.com/users/register).
-2. The [NodeJS](https://nodejs.org/en/), version 8 or higher.
+2. The [NodeJS](https://nodejs.org/en/), version 12 or higher.
 3. A good JavaScript editor, such as [Visual Studio Code](https://code.visualstudio.com/).
 4. [Npm](https://www.npmjs.com/).
 5. An up-to-date version of [Google Chrome](https://www.google.com/chrome/downloads/).
 6. A corresponding version of [ChromeDriver](https://chromedriver.chromium.org/downloads).
 
-The main test case is [`AcmeBankTests.js`](test/example/AcmeBankTests.js).
+The main test case is [`AcmeBankTests.test.js`](test/example/AcmeBankTests.js).
 
 To execute tests, set the `APPLITOOLS_API_KEY` environment variable
 to your [account's API key](https://applitools.com/tutorials/getting-started/setting-up-your-environment.html),
