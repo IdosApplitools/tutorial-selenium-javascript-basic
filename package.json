@@ -1,7 +1,7 @@
 {
   "name": "tutorial-selenium-javascript-basic",
-  "version": "1.0.0",
-  "description": "",
+  "version": "2.0.0",
+  "description": "An example project for Selenium JavaScript Mocha using Applitools classic runner",
   "homepage": "https://applitools.com",
   "author": {
     "name": "Applitools Team",
