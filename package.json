@@ -17,7 +17,7 @@
   "dependencies": {
     "@applitools/eyes-selenium": "^4.59.3",
     "mocha": "^10.0.0",
-    "selenium-webdriver": "^4.3.1"
+    "selenium-webdriver": "^4.3.0"
   },
   "scripts": {
     "test": "mocha --no-timeouts \"test/*.test.js\""
